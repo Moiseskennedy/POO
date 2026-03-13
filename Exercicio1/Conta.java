@@ -37,7 +37,7 @@ public class Conta {
             this.status = false;
             System.out.println("Conta encerrada!");
         } else {
-            System.out.printf("Saque todo valor antes de encerrar! Seu saldo atual é de: %.2f",  this.saldo);
+            System.out.printf("Saque todo valor antes de encerrar! Seu saldo atual é de: %.2f", this.saldo);
             System.out.println();
         }
     }
