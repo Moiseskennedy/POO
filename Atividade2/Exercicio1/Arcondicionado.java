@@ -13,8 +13,9 @@ public class Arcondicionado {
         setLigado(ligado);
     }
 
+
     public void setMarca(String marca) {
-        if (marca.length() >= 3) {
+        if (marca.length() => 3) {
             this.marca = marca;
         } else {
             System.out.println("A marca deve possuir pelo menos 3 caracteres");
@@ -36,6 +37,7 @@ public class Arcondicionado {
     public void setLigado(boolean ligado) {
         this.ligado = ligado;
     }
+    
 
     public void ativarModoTurbo() {
         if (verificarCompressor()) {

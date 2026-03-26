@@ -1,16 +1,12 @@
 public class Aluno {
-
-    // Atributos privados (Encapsulamento)
     private int id;
     private int ra;
     private String nome;
     private String curso;
 
-    // 1. Construtor Vazio (Boa prática em Java)
     public Aluno() {
     }
 
-    // 2. Construtor com parâmetros (Para instanciar rápido no main)
     public Aluno(int id, String nome, int ra, String curso) {
         this.id = id;
         this.nome = nome;

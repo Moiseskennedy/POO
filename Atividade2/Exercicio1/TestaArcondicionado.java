@@ -6,6 +6,7 @@ public class TestaArcondicionado {
         System.out.println("Antes do Turbo: " + ar.toString());
         System.out.println();
         
+        
         // Testando a lógica
         ar.ativarModoTurbo();
         
