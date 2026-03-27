@@ -1,4 +1,5 @@
 public class Medico {
+
     private int id;
     private String nome;
     private String especialidade;
@@ -10,9 +11,10 @@ public class Medico {
     }
 
     public String getNome() {
-        return nome; 
+        return nome;
     }
-    
-    public String getEspecialidade() { return especialidade;
+
+    public String getEspecialidade() {
+        return especialidade;
     }
 }
