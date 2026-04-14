@@ -1,4 +1,5 @@
 public class Cliente {
+
     private int id;
     private String nome;
 
@@ -9,6 +10,5 @@ public class Cliente {
 
     public String getNome() {
         return nome;
-        
     }
 }
