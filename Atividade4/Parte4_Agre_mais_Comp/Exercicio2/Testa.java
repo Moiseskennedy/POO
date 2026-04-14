@@ -17,9 +17,9 @@ public class Testa {
 
         // 4. Composição: Simular a venda de 3 ingressos
         // Note que NÃO damos 'new Ingresso' aqui. A Sessão faz isso internamente.
-        sessao01.venderIngresso(1, "A1", "Inteira", 40.0f);
-        sessao01.venderIngresso(2, "A2", "Inteira", 40.0f);
-        sessao01.venderIngresso(3, "A3", "Meia", 20.0f);
+        sessao01.venderIngresso(1, "A1", "inteira", 40.0f);
+        sessao01.venderIngresso(2, "A2", "inteira", 40.0f);
+        sessao01.venderIngresso(3, "A3", "meia", 20.0f);
 
         // 5. Imprimir os dados da Sessão
         System.out.println("======= SISTEMA DE CINEMA =======");
