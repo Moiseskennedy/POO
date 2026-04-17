@@ -9,6 +9,6 @@ public class Email extends CanalNotificacao {
 
     @Override
     public void enviar() {
-        System.out.println("Enviando E-mail para " + destinatario + " com o assunto [" + assunto + "]: " + mensagem);
+        System.out.println("Enviando E-mail para " + this.destinatario + " com o assunto [" + this.assunto + "]: " + this.mensagem);
     }
 }

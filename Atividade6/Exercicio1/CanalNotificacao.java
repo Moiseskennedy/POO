@@ -10,8 +10,8 @@ public abstract class CanalNotificacao {
 
     // Método Concreto: Todos os filhos usarão exatamente esse código
     public void exibirDados() {
-        System.out.println("Destinatário: " + destinatario);
-        System.out.println("Mensagem: " + mensagem);
+        System.out.println("Destinatário: " + this.destinatario);
+        System.out.println("Mensagem: " + this.mensagem);
     }
 
     // Método Abstrato: NÃO tem corpo {}. Termina com ';'

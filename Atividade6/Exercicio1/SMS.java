@@ -9,6 +9,6 @@ public class SMS extends CanalNotificacao {
 
     @Override
     public void enviar() {
-        System.out.println("Enviando SMS para o número " + numeroTelefone + ": [" + mensagem + "]");
+        System.out.println("Enviando SMS para o número " + this.numeroTelefone + ": [" + this.mensagem + "]");
     }
 }

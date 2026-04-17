@@ -9,6 +9,6 @@ public class WhatsApp extends CanalNotificacao {
 
     @Override
     public void enviar() {
-        System.out.println("Enviando Zap para " + destinatario + "... Mensagem: [" + mensagem + "]");
+        System.out.println("Enviando Zap para " + this.destinatario + "... Mensagem: [" + this.mensagem + "]");
     }
 }
